@@ -1,1 +1,7 @@
-<h1>This is the website</h1>
+<script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script>
+<script>
+   Redoc.init('https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/petstore.yaml', {
+       scrollYOffset: 60,
+       hideDownloadButton: true
+   }, document.getElementById('redoc'))
+</script>
